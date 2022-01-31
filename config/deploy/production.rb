@@ -62,4 +62,4 @@
 
 server '3.85.196.201', roles: [:web, :app, :db], primary: true
 set :stage,  'production'
-set :branch, "main"
+set :branch, "master"

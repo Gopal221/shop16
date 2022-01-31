@@ -1,5 +1,5 @@
 # Change these
-set :repo_url,        "git@github.com:Gopal221/bromo.git"
+set :repo_url,        "git@github.com:Gopal221/shop16.git"
 set :application,     'shop16'
 set :user,            'gpbase'
 set :puma_threads,    [4, 16]
@@ -48,8 +48,8 @@ namespace :deploy do
   desc "Make sure local git is in sync with remote."
   task :check_revision do
     on roles(:app) do
-      unless `git rev-parse HEAD` == `git rev-parse origin/main`
-        puts "WARNING: HEAD is not the same as origin/main"
+      unless `git rev-parse HEAD` == `git rev-parse origin/master`
+        puts "WARNING: HEAD is not the same as origin/master"
         puts "Run `git push` to sync changes."
         # exit
       end

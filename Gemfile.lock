@@ -252,7 +252,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capistrano (= 3.7.2)
-  capistrano-bundler
   capistrano-rails
   capistrano-rvm
   capistrano3-delayed-job (~> 1.0)

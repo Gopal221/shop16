@@ -1,6 +1,6 @@
 # Change these
 set :repo_url,        "git@github.com:Gopal221/shop16.git"
-set :application,     'kryoss'
+set :application,     'shop16'
 set :user,            'gpbase'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
